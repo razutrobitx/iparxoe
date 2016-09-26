@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>CURSO RWD</title>
+		
+        <meta name="description"	content="">
+        <meta name="viewport"		content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+		
+	<!-- =====  ESTILOS CSS
+				Se leen de arriba-abajo y de izda-dcha.
+				Se escriben de mas generico a mas concreto
+				Para definir la estructura usar principalmente solo etiquetas
+	======================================================================== -->
+
+		<!-- 	Normalize es un fichero CSS cuyo  objetivo es 
+				mantener los estilos similares en los navegadores
+			---------------------------------------------------------------- --> 
+			<link 	rel=	"stylesheet"	
+					href=	"https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+
+		<!-- 	Main son los estilos CSS propios para la Web
+			---------------------------------------------------------------- --> 
+ 			<link 	rel=	"stylesheet"	
+					href=	"css/main.css">
+
+	<!-- =====  LIBRERIA MODERNIZR
+				Librería JavaScript que nos permite conocer 
+				la compatibilidad del navegador con tecnologías HTML5 y CSS3.
+				Se aconseja colocar el script dentro del HEAD, porque debe 
+				cargarse antes del BODY
+		==================================================================== -->
+			<script	src=	"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	</head>
+	
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<!-- =====  CUERPO DE LA WEB
+		==================================================================== -->
+
+		<!-- ===== HEADER
+			Specifies a header for a document or section.
+			The <header> element represents a container for:
+				- Introductory content
+				- or a set of navigational links.
+
+			Typically contains:
+				- ONE or more heading elements (<h1> - <h6>)
+				- Logo or Icon
+				- Authorship information
+
+			You can have several <header> elements in one document.
+		==================================================================== --> 		
+		<header>
+		
+			<!-- ===== H1, H2 ... H6
+				Search engines use the headings to index the structure 
+				and content of your web pages.
+				Users skim your pages by its headings. 
+				It is important to use headings to show the document structure.
+
+					<h1> headings should be used for main headings, 
+						followed by <h2> headings, 
+						then the less important <h3>, and so on.
+						A document can contain multiple top-level headings <h1>
+						https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#headings-and-sections
+			================================================================ --> 		
+			<h1>Read Write Delete</h1>
+			<h2>and where is the Update?</h2>
+			
+			<!-- ===== NAV
+				The <nav> tag defines a set of navigation links.
+				NOT all links of a document should be inside a <nav> element. 
+				The <nav> element is intended only for major block 
+				of navigation links.
+				Browsers, such as screen readers for disabled users, 
+				can use this element to determine whether to omit 
+				the initial rendering of this content.
+			================================================================ --> 		
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Empresa</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+			
+		<!-- ===== MAIN
+			Specifies the main content of a document 
+			The content inside the element should be unique to the document. 
+			It should not contain any content that is repeated across documents 
+			such as sidebars, navigation links, copyright information,
+			site logos, and search forms.
+
+			There must not be more than one <main> element in a document.
+			The <main> element must NOT be a descendant of an <article>,
+			<aside>, <footer>, <header>, or <nav> element.
+		=================================================================== --> 		
+		<main>
+		
+		<!-- ===== SECTION
+			Defines sections in a document, such as chapters, headers, footers
+			or any other sections of the document.
+			
+			According to W3C's HTML5 documentation: "A section is a thematic
+			grouping of content, typically with a heading."
+
+			A home page could normally be split into sections for introduction,
+			content, and contact information
+		=================================================================== --> 		
+		
+<!-- ===== ARTICLE OR SECTION
+	4.3.11.1 Article or section?
+
+	This section is non-normative.
+
+	A section forms part of something else.
+	An article is its own thing.
+	But how does one know which is which? Mostly the real answer is	"it depends
+	on author intent". For example, one could imagine a book with a 
+	"Granny Smith" chapter that just said "These juicy, green apples make a 
+	great filling for apple pies."; 
+	that would be a section because there'd be lots of other chapters on (maybe) 
+	other kinds of apples.
+	On the other hand, one could imagine a tweet or reddit comment or tumblr 
+	post or newspaper classified ad that just said "Granny Smith. These juicy, 
+	green apples make a great filling for apple pies."; it would then be 
+	articles because that was the whole thing.
+
+	A comment on an article is not part of the article on which it is 
+	commenting, therefore it is its own article.
+	
+	https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#headings-and-sections
+	======================================================================== --> 		
+
+		<section>
+			<header>
+				<h1>Portátiles</h1>
+				<p>Los mejores portatiles del mercado</p>
+			</header>
+			
+			<article>
+				<h1>Lenovo A1</h1>
+				<section>
+					<img src="https://pixabay.com/static/uploads/photo/2015/07/31/14/35/fig-869154_960_720.jpg" alt="Foto Lenovo A1">
+				</section>
+				<section>
+					<p>
+						Minions ipsum tank yuuu! Po kass belloo! Poulet tikka masala aaaaaah aaaaaah ti aamoo! Jeje bappleees. Para tú para tú pepete wiiiii. Hana dul sae gelatooo belloo! Tulaliloo. Hahaha underweaaar poulet tikka masala jeje pepete. Hahaha daa aaaaaah underweaaar hana dul sae tank yuuu! Jeje hana dul sae aaaaaah para tú jiji.
+					</p>
+					<p>
+						Baboiii bappleees chasy belloo! Butt poopayee jeje tatata bala tu. Underweaaar potatoooo chasy tank yuuu! Bee do bee do bee do me want bananaaa! Baboiii underweaaar aaaaaah. Bappleees hana dul sae para tú tulaliloo aaaaaah aaaaaah hahaha. Hahaha jiji uuuhhh chasy aaaaaah bananaaaa bananaaaa poulet tikka masala jeje para tú gelatooo. Tank yuuu! potatoooo poopayee tatata bala tu gelatooo me want bananaaa!
+					</p>				
+
+				</section>
+				<section>
+				<ul>
+					<li>Peso:</li>	<li>10</li>
+					<li>Ancho:</li>	<li>10</li>
+					<li>Largo:</li>	<li>10</li>
+					<li>PVP:</li>	<li>10</li>
+				</ul>
+				</section>
+			</article>
+
+			<article>
+				<h1>ASUS B2</h1>
+				<section>
+					<img src="http://www.ffpaciente.enfermeriacomunitaria.org/wp-content/uploads/2016/01/minion-972907_960_720.jpg" alt="Foto Lenovo A1">
+				</section>
+				<section>
+					<p>
+						Minions ipsum tatata bala tu bananaaaa uuuhhh tatata bala tu para tú poopayee. Para tú aaaaaah bananaaaa tatata bala tu gelatooo. Jiji wiiiii bee do bee do bee do uuuhhh tank yuuu! Poulet tikka masala baboiii butt me want bananaaa! Gelatooo. Butt po kass para tú bappleees pepete. Daa bee do bee do bee do ti aamoo! Potatoooo bee do bee do bee do butt gelatooo. Bappleees tatata bala tu chasy daa underweaaar aaaaaah bananaaaa bananaaaa. Baboiii po kass chasy aaaaaah para tú.
+					</p>
+				</section>
+				<section>
+				<ul>
+					<li>Peso:</li>	<li>20</li>
+					<li>Ancho:</li>	<li>20</li>
+					<li>Largo:</li>	<li>20</li>
+					<li>PVP:</li>	<li>20</li>
+				</ul>
+				</section>
+			</article>
+
+			<article>
+				<h1>MSI C3</h1>
+				<section>
+					<img src="https://pixabay.com/static/uploads/photo/2015/10/05/17/09/minion-972908_960_720.jpg" alt="Foto Lenovo A1">
+				</section>
+				<section>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae venenatis ante. Integer id erat elementum ex consequat mattis sed nec enim. Suspendisse facilisis massa quis odio rutrum malesuada id.
+					</p>
+				</section>
+				<section>
+				<ul>
+					<li>Peso:</li>	<li>20</li>
+					<li>Ancho:</li>	<li>20</li>
+					<li>Largo:</li>	<li>20</li>
+					<li>PVP:</li>	<li>20</li>
+				</ul>
+				</section>
+			</article>
+
+			<footer>
+				<p>Todos los precios incluyen impuestos y los gatos de envio</p>
+			</footer>
+		</section>
+			
+
+		</main>
+		
+		<!-- Defines a footer for a document or section -------------------- --> 		
+		<footer>
+			<p>Posted by: XO</p>
+			<p>Contact information: 
+				<a href="mailto:someone@example.com">
+					 mail arroba mail dot com
+				</a>
+			</p>
+			
+			<p>Escrito el dia de <time datetime="2008-02-14 20:00">Valentin</time> cuando me acoste a las<time>10:00</time> como todos los dias.</p>
+
+			<!-- details specifies additional info, user can view or hide -- -->
+			<details>
+				<!-- summary defines a visible heading for a details element -->
+				<summary>
+					Copyright CC BY 4.0.
+				</summary>
+				
+				<p> by XO.</p>
+				<p> Los contenidos que se publican en esta web lo hacen bajo una licencia de 
+					<!-- mark Highlight parts of a text -------------------- -->
+					<mark>
+						Creative Commons Reconocimiento 4.0 Internacional
+					</mark>	
+				</p>
+			</details>	
+
+		</footer>
+		
+
+	<!-- =====  LIBRERIAS JAVA SCRIPT
+				Se leen de arriba-abajo y de izda-dcha.
+				Se escriben de mas generico a mas concreto
+		==================================================================== -->
+
+		<!-- 	jQuery es una biblioteca de JavaScript,
+				que permite simplificar la manera de interactuar con 
+				los documentos HTML, manipular el árbol DOM, manejar eventos, 
+				desarrollar animaciones y agregar interacción con la técnica 
+				AJAX a páginas web.
+			---------------------------------------------------------------- --> 
+			<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		
+		<!-- 	Plugins son las ???????????????????????????????????????????????????????????????
+			---------------------------------------------------------------- --> 
+			<script src="js/plugins.js"></script>
+			
+		<!-- 	Main son las funciones JS propias para la Web
+			---------------------------------------------------------------- --> 
+			<script src="js/main.js"></script>
+
+    </body>
+</html>
