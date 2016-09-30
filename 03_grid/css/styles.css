@@ -38,3 +38,16 @@ p{
 }
 
 
+/* ----- Bloque fijo en la pantalla ------------------------------- */
+#popup{
+    position: fixed;
+    right:    10px;
+    top:    30%;
+    background-color: bisque;
+    z-index: 99;    /*  Lo pongo sobre todas las capas para que no se le superpongan las del contenido*/
+    border: 2px double black;
+    border-style: groove;
+    border-radius: 50%;
+    overflow: visible;
+}
+
