@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Grid</title>
+
+    <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/styles.css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+    <!-- ===== PRUEBAS
+
+        <!-- ----- Bloques en virgen --------------------------------------- --
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+        <div>Bloque</div>
+
+        <!-- ----- Bloques con filas y definiendo el tamaño----------------- --
+        <div class="row">
+            <div class="col-lg-2">Margen</div>
+            <div class="col-lg-8">Imagen</div>
+            <div class="col-lg-2">Margen</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">Menu</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2">Margen</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-2">Margen</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">Margen</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-2">Margen</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">Margen</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-2">Margen</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">Margen</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-4">Producto</div>
+            <div class="col-lg-2">Margen</div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-2">Menu</div>
+            <div class="col-lg-4">RR.SS.</div>
+        </div>
+
+        <!-- ----- Bloques Semanticos -------------------------------------- --
+
+        <header>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <div class="col-lg-8">Imagen</div>
+                <div class="col-lg-2">Margen</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">Menu</div>
+            </div>
+        </header>
+
+        <main>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-2">Margen</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-2">Margen</div>
+            </div>
+            <div class="row">
+                <!-- Desplazamos el bloque 2 columnas para el Margen --
+                <div class="col-lg-4   col-md-offset-2">Producto</div>
+                <div class="col-lg-4">Producto</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-4">Producto</div>
+                <div class="col-lg-2">Margen</div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-2">Menu</div>
+
+                <!-- Desplazamos el bloque 6 columnas-------------- --
+                <div class="col-lg-4  col-md-offset-6">RR.SS.</div>
+            </div>
+        </footer>
+                        ==================================================== -->
+
+
+        <!-- ----- Con contenido ------------------------------------------- -->
+
+        <header>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <div class="col-lg-8">
+                    <img src="https://lh3.googleusercontent.com/-3otqe1tA7IA/AAAAAAAAAAI/AAAAAAAAAAA/n0hLhU15ok8/photo.jpg" alt="up!">
+                </div>
+                <div class="col-lg-2">Margen</div>
+
+                <div class="col-lg-12">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Where</a></li>
+                        <li><a href="#">When</a></li>
+                        <li><a href="#">What</a></li>
+                        <li><a href="#">How</a></li>
+                        <li><a href="#">Why</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="popup" class="col-lg-2">
+            <img src="https://lh3.googleusercontent.com/-3otqe1tA7IA/AAAAAAAAAAI/AAAAAAAAAAA/n0hLhU15ok8/photo.jpg" alt="up!">
+        </div>
+
+
+
+        <main>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <article class="col-lg-4">
+                    <p>
+                        Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+                    </p>
+                    <p>
+                        Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.
+                    </p>
+                </article>
+                <article class="col-lg-4">
+                    <p>
+                        Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro. Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe
+                    </p>
+                </article>
+                <div class="col-lg-2">Margen</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <article class="col-lg-4">
+                    <p>
+                        Quiere la boca exhausta vid, kiwi, piña y fugaz jamón. Fabio me exige, sin tapujos, que añada cerveza al whisky. Jovencillo emponzoñado de whisky, ¡qué figurota exhibes! La cigüeña tocaba cada vez mejor el saxofón y el búho pedía kiwi y queso. El jefe buscó el éxtasis en un imprevisto baño de whisky y gozó como un duque.
+                    </p>
+                    <p>
+                        Exhíbanse politiquillos zafios, con orejas kilométricas y uñas de gavilán. El cadáver de Wamba, rey godo de España, fue exhumado y trasladado en una caja de zinc que pesó un kilo. El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío, añoraba a su querido cachorro. El veloz murciélago hindú comía feliz cardillo y kiwi.
+                    </p>
+                </article>
+                <article class="col-lg-4">
+                    <p>
+                        La cigüeña tocaba el saxofón detrás del palenque de paja. Quiere la boca exhausta vid, kiwi, piña y fugaz jamón. Fabio me exige, sin tapujos, que añada cerveza al whisky. Jovencillo emponzoñado de whisky, ¡qué figurota exhibes! La cigüeña tocaba cada vez mejor el saxofón y el búho pedía kiwi y queso. El jefe buscó el éxtasis en un imprevisto baño de whisky y gozó como un duque.
+                    </p>
+                </article>
+                <div class="col-lg-2">Margen</div>
+            </div>
+            <div class="row">
+                <!-- Desplazamos el bloque 2 columnas para el Margen -->
+                <article class="col-lg-4   col-md-offset-2">
+                    <p>
+                        Reina en mi espíritu una alegría admirable, muy parecida a las dulces alboradas de la primavera, de que gozo aquí con delicia.
+                    </p>
+                    <p>
+                        Estoy solo, y me felicito de vivir en este país, el más a propósito para almas como la mía, soy tan dichoso, mi querido amigo, me sojuzga de tal modo la idea de reposar, que no me ocupo de mi arte.
+                    </p>
+                    <p>
+                        Ahora no sabría dibujar, ni siquiera hacer una línea con el lápiz; y, sin embargo, jamás he sido mejor pintor Cuando el valle se vela en torno mío con un encaje de vapores;
+                    </p>
+                </article>
+                <article class="col-lg-4">
+                    <p>
+                        Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    </p>
+                    <p>
+                        Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha, que estaba a punto de escurrirse hasta el suelo.
+                    </p>
+                    <p>
+                        Numerosas patas, penosamente delgadas en comparación con el grosor normal de sus piernas, se agitaban sin concierto. - ¿Qué me ha ocurrido? No estaba soñando. Su habitación, una habitación normal, aunque muy pequeña, tenía el aspecto habitual.
+                    </p>
+                    <p>
+                        Sobre la mesa había desparramado un muestrario de paños - Samsa era viajante de comercio-, y de la pared colgaba una estampa recientemente recortada de una revista ilustrada y puesta en un marco dorado.
+                    </p>
+                    <p>
+                        La estampa mostraba a una mujer tocada con un gorro de pieles, envuelta en una estola también de pieles, y que, muy erguida, esgrimía un amplio manguito, asimismo de piel, que ocultaba todo su antebrazo. Gregorio miró hacia la ventana; estaba nublado, y sobre el cinc del alféizar repiqueteaban las gotas de lluvia, lo que le hizo sentir una gran melancolía.
+                    </p>
+                    <p>
+                        «Bueno -pensó-; ¿y si siguiese durmiendo un rato y me olvidase de todas estas locuras? » Pero no era posible, pues Gregorio tenía la costumbre de dormir sobre el lado derecho, y su actual estado no le permitía adoptar tal postura. Por más que se esforzara volvía a quedar de espaldas. Intentó en vano esta operación numerosas veces; cerró los ojos para no tener que ver aquella confusa agitación de patas, que no cesó hasta que notó en el costado un dolor leve y punzante, un dolor jamás sentido hasta entonces. - ¡Qué cansada es la profesión que he elegido! -se dijo-. Siempre de viaje.
+                </article>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">Margen</div>
+                <article class="col-lg-4">
+                    <p>
+                        La cigüeña tocaba el saxofón detrás del palenque de paja. Quiere la boca exhausta vid, kiwi, piña y fugaz jamón. Fabio me exige, sin tapujos, que añada cerveza al whisky. Jovencillo emponzoñado de whisky, ¡qué figurota exhibes! La cigüeña tocaba cada vez mejor el saxofón y el búho pedía kiwi y queso. El jefe buscó el éxtasis en un imprevisto baño de whisky y gozó como un duque.
+                    </p>
+                </article>
+                <article class="col-lg-4">
+                    <p>
+                        La cigüeña tocaba el saxofón detrás del palenque de paja. Quiere la boca exhausta vid, kiwi, piña y fugaz jamón. Fabio me exige, sin tapujos, que añada cerveza al whisky. Jovencillo emponzoñado de whisky, ¡qué figurota exhibes! La cigüeña tocaba cada vez mejor el saxofón y el búho pedía kiwi y queso. El jefe buscó el éxtasis en un imprevisto baño de whisky y gozó como un duque.
+                    </p>
+                </article>
+                <div class="col-lg-2">Margen</div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-2">Menu</div>
+
+                <!-- Desplazamos el bloque 6 columnas-------------- -->
+                <div class="col-lg-4  col-md-offset-6">RR.SS.</div>
+            </div>
+        </footer>
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
+

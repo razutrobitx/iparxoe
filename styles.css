@@ -1,0 +1,59 @@
+/* -------------------------------------------------------------------------- */
+
+/* ----- Coloreamos los bloques DIV ----------------------------------------- */
+div {
+    -webkit-box-sizing: in-box: ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid red;
+    margin:-1px;
+}
+
+article {
+    -webkit-box-sizing: in-box: ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px dotted black;
+    margin:-1px;
+}
+
+
+/* ----- Coloreamos las filas pares e impares ------------------------------- */
+.row:nth-child(odd){
+    background-color: rgba(0, 255, 0, 0.25);
+}
+
+.row:nth-child(even){
+    background-color: rgba(0, 0, 255, 0.25);
+}
+
+header{
+    background-color: grey ;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+
+/* ----- Bloque fijo en la pantalla ------------------------------- */
+#popup{
+    position: fixed;
+    right:    0;
+    top:    30%;
+    background-color: bisque;
+    z-index: 99;    /*  Lo pongo sobre todas las capas para que no se le superpongan las del contenido*/
+    border: 2px double black;
+    border-style: double;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+
+#popup > img{
+    width:  80%;
+    margin: 10%;
+}
+
