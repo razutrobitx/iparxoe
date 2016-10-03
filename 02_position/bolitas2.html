@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			https://css-tricks.com/css-animation-tricks/
+		</title>
+
+
+		<style>
+			div {
+				height:100px;		width:100px;
+				border-radius:none; border:1px solid black;
+				position:fixed;
+
+			}
+
+			#d11 {
+				background-color:	NONE;
+                                z-index: 50;
+
+			}
+
+			#d10 {
+				background-color:	rgba(0,255,0,.75);
+                                z-index: 60;
+
+			}
+
+			#d9 {
+				background-color: 		rgba(0,0,255,.65);
+                z-index: 80;
+
+			}
+			#d8 {
+				background-color:	rgba(0,255,255,.55);
+                z-index: 90;
+			}
+
+			#d7 {
+				height:300px;		width:300px;
+				background:rgba(255,255,255,.55);
+                z-index: 0;
+            }
+
+            .middle {
+                vertical-align: middle;
+                text-align:center;
+                position:relative; /*makes left effective*/
+                display:table-cell;
+				background:rgba(255,255,255,.55);
+
+            }
+
+		</style>
+	</head>
+
+	<body>
+		<div id="d11" ></div>
+		<div id="d10"></div>
+		<div id="d9"></div>
+		<div id="d8"></div>
+		<div id="d7" class="middle"></div>
+
+
+
+
+		<script>
+
+		</script>
+
+	</body>
+
+</html>
